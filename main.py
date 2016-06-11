@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify, url_for
-app = Flask(__name__)
 from get_them_grades import *
+app = Flask(__name__)
 
 @app.route("/")
 def hello():
